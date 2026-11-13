@@ -66,12 +66,12 @@ final class Views
         $parties = $sample->parties();
         $report = $sample->report();
 
-        $lede = 'RAIFS, the Remote Artificial Intelligence Financial System, is a financial reporting application that a company deploys on its own server.';
-        $what = 'RAIFS reads records in the shape that APIX defines. The application connects to a database at any address a company gives it, and to JSON files in the APIX shape. From what it reads, it builds the balance sheet, the income statement, the related-party transactions, and the annual report.';
+        $lede = 'A company deploys RAIFS, the Remote Artificial Intelligence Financial System, on its own server and gets a clear view of what it owes and what it is owed.';
+        $what = 'RAIFS tracks what a company owes and what it is owed, issues invoices, records the payments that settle them, and holds payables and receivables, each with an ageing view. It follows cash flow in and out over any period the company asks for. It reads records from a database at any address, or from JSON files in the APIX shape.';
         $steps = [
-            'A company deploys RAIFS on its own server, and the application loads one page.',
-            'The company gives RAIFS a database address, or JSON files in the APIX shape.',
-            'RAIFS reads the records, builds the four reports, and the company holds the annual report.',
+            'A company deploys RAIFS on its own server.',
+            'It points RAIFS at the records it already keeps.',
+            'It then holds a clear view of what it owes, what it is owed, and the cash that moves in and out.',
         ];
 
         $assetRows = [];
