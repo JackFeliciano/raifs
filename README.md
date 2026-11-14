@@ -41,4 +41,4 @@ The suite needs PHP 8.2 or later and the pdo_sqlite extension. It builds its own
 
 ## Licence
 
-MIT. See `LICENSE`.
+MPL 2.0. See `LICENSE`.
